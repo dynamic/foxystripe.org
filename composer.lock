@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "469d8a1905c4b38d46ad9140e38e5919",
+    "hash": "baf926fcc30a05182e57a9fbb7e02956",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -141,6 +141,50 @@
                 "zikula"
             ],
             "time": "2015-01-21 21:08:45"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "0c3e68dd0357321b5a5818c3aa832b1cc24a4b1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/0c3e68dd0357321b5a5818c3aa832b1cc24a4b1f",
+                "reference": "0c3e68dd0357321b5a5818c3aa832b1cc24a4b1f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "time": "2014-12-09 02:30:54"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -452,7 +496,8 @@
         "silverstripe/blog": 20,
         "silverstripe/widgets": 20,
         "silverstripe/comments": 20,
-        "simplepie/simplepie": 20
+        "simplepie/simplepie": 20,
+        "ezyang/htmlpurifier": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
