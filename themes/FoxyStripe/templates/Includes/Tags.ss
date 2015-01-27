@@ -1,0 +1,1 @@
+<% if Tags %>Tagged: <% loop Tags %><a href="$Link" title="View the $Title tag" rel="tag">$Title</a> <% end_loop %><% end_if %>

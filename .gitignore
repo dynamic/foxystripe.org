@@ -19,3 +19,5 @@ mathspamprotection
 silverstripe-smtp
 spamprotection
 userforms
+.sass-cache
+node_modules

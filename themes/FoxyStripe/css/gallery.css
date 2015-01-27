@@ -1,0 +1,223 @@
+html { position: relative; }
+
+.opaque-layer
+{
+background: #000;
+background: rgba(0,0,0,0.40);
+filter: alpha(opacity=40);
+cursor: pointer;
+position: fixed;
+height: 100%;
+width: 100%;
+left: -100%;
+top: 0px;
+z-index: 99;
+opacity: 0;
+-webkit-transition: opacity .3s ease;
+-moz-transition: opacity .3s ease;
+transition: opacity .3s ease;
+}
+
+.opaque-layer.active
+{
+left: 0px;
+opacity: 1;
+}
+
+.modal
+{
+background: #fff;
+-moz-box-shadow: 0px 0px 25px 4px #111;
+-webkit-box-shadow: 0px 0px 25px 4px #111;
+box-shadow: 0px 0px 25px 4px #111;
+height: auto;
+width: 681px;
+left: -100%;
+padding-bottom: 10px;
+margin-top: -295px;
+margin-left: -363px;
+position: fixed;
+top: 50%;
+z-index: 100;
+overflow: hidden;
+opacity: 0;
+-webkit-transition: opacity .2s ease;
+-moz-transition: opacity .2s ease;
+transition: opacity .2s ease;
+-moz-transition-delay: .2s;
+-webkit-transition-delay: .2s;
+transition-delay: .2s;
+}
+
+.modal.active
+{
+left: 50%;
+opacity: 1;
+}
+
+	.modal-inner
+	{
+	padding: 10px 10px 0px 10px;
+	/*height: 570px;*/
+	position: relative;
+	}
+
+		.modal .toggle-modal
+		{
+		background: url(/themes/dynamic-core-theme/images/icon-close.png) no-repeat left top;
+		display: block;
+		height: 9px;
+		width: 9px;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		z-index: 101;
+		}
+
+		.modal .toggle-modal span { display: none; }
+
+		/*#slider { }*/
+		
+			.flex-container h3
+			{
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-bottom: 0px !important;
+			}
+		
+			.flexslides .slides li
+			{
+			text-align: center;
+			}
+
+			.flexslides .slides li img
+			{
+			max-height: 400px;
+			max-width: 627px;
+			width: auto;
+			margin: 0 auto;
+			}
+
+			/*.flex-caption
+			{
+			float: right;
+			width: 200px;
+			}
+
+		#slider .flex-direction-nav { display: none; }
+
+			.modal-inner h4
+			{
+			font-size: 15px;
+			margin-top: 0px;
+			}*/
+
+	/*#carousel
+	{
+	min-height: 109px;
+	width: 200px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	z-index: 10;
+	}
+	
+		#carousel h4{
+			text-align: center;
+		}
+
+		#carousel img
+		{
+		cursor: pointer;
+		height: 82px;
+		max-width: 82px;
+		padding-right: 10px;
+		}
+		
+	#carousel .flex-viewport img{ opacity: .7; }
+	#carousel .flex-viewport img:hover,
+	#carousel .flex-viewport .flex-active-slide img{ opacity: 1; }*/
+
+@media (max-width: 1000px) {
+
+.opaque-layer { background-color: #000; }
+.flexslider { background: #000000; }
+
+.modal
+{
+background-color: transparent;
+box-shadow: none;
+margin: 0px;
+top: 0px;
+position: absolute;
+height: auto;
+width: 100%;
+z-index: 1000;
+}
+
+.modal.active { left: 0px; }
+
+	.modal-inner { padding: 0px; }
+
+		.modal h3 { display: none; }
+
+		.modal .toggle-modal
+		{
+		background: none;
+		border: 1px solid #fff;
+		border-radius: 2px;
+		color: #fff;
+		display: inline-block;
+		height: auto;
+		width: auto;
+		padding: 2px 10px;
+		}
+
+			.modal .toggle-modal span { display: block; }
+
+		.flexslides .flex-direction-nav { display: block; }
+
+		.flexslides .slides li img
+		{
+		max-height: 100%;
+		max-width: 100%;
+		width: 100%;
+		margin: auto;
+		}
+
+		.flex-caption
+		{
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%); /* W3C */
+		background-color: transparent;
+		color: #fff;
+		float: none;
+		padding: 10px;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+
+		.flex-direction-nav a
+		{
+		height: 64px;
+		width: 50px;
+		top: 30%;
+		}
+		
+		.flex-direction-nav .flex-prev { background: url(/themes/dynamic-core-theme/images/slider-left-arrow.png) no-repeat left top; }
+		
+		.flex-direction-nav .flex-next { background: url(/themes/dynamic-core-theme/images/slider-right-arrow.png) no-repeat left top; }
+
+	.carousel { display: none; }
+
+}

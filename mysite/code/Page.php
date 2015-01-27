@@ -30,8 +30,47 @@ class Page_Controller extends ContentController {
 
 	public function init() {
 		parent::init();
-		// You can include any CSS or JS required by your project here.
-		// See: http://doc.silverstripe.org/framework/en/reference/requirements
+		// path variables
+		$themeDir = SSViewer::get_theme_folder();
+		$config = SiteConfig::current_site_config();
+		
+		$scripts = array(
+			'framework/thirdparty/jquery/jquery.min.js',
+			'flexslider/thirdparty/flexslider/jquery.flexslider-min.js',
+			$themeDir . '/javascript/jquery.lazyload.min.js',
+			$themeDir . '/javascript/lazy_init.js',
+			'userforms/thirdparty/jquery-validate/jquery.validate.js',
+			'userforms/javascript/UserForm_frontend.js',
+			$themeDir . '/javascript/form-update.js',
+			$themeDir . '/javascript/menu_init.min.js',
+			$themeDir . '/javascript/extras.js',
+			$themeDir . '/javascript/tracking-universal.js'
+		);
+
+		Requirements::combine_files('scripts.js', $scripts);
+
+
+		// Add the combined styles.
+		$styles = array(
+			$themeDir . '/css/base.css',
+			$themeDir . '/css/layout.css',
+			$themeDir . '/css/typography.css',
+			$themeDir . '/css/form.css',
+			$themeDir . '/css/skeleton.css',
+		);
+
+		Requirements::combine_files('styles.css', $styles);
+
+
+		// print css
+		Requirements::css($themeDir . '/css/print.css', 'print');
+
+		// blocked
+		Requirements::block('framework/thirdparty/jquery/jquery.js');
+
+		// Extra folder to keep the relative paths consistent when combining.
+		Requirements::set_combined_files_folder(ASSETS_DIR . '/_combined');
+
 	}
 
 }
