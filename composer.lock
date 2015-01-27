@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26825e1fb3cec51f0034c3d69c7ead94",
+    "hash": "c312e469de7bd46555a4f78c40d1b914",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "v2.1.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "188346d52003e4a741bca2167e772c324854f72f"
+                "reference": "013a4fde7babd6eacc67874021fb43be9b085a0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/188346d52003e4a741bca2167e772c324854f72f",
-                "reference": "188346d52003e4a741bca2167e772c324854f72f",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/013a4fde7babd6eacc67874021fb43be9b085a0f",
+                "reference": "013a4fde7babd6eacc67874021fb43be9b085a0f",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-09-15 07:38:24"
+            "time": "2014-08-29 07:00:51"
         },
         {
             "name": "composer/installers",
@@ -187,6 +187,30 @@
             "time": "2014-12-09 02:30:54"
         },
         {
+            "name": "mediadevils/silverstripe-smtp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MediaDevils/silverstripe-smtp.git",
+                "reference": "bc978bd45a9a34efc8c0c8a17a7f12ffd043bb68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MediaDevils/silverstripe-smtp/zipball/bc978bd45a9a34efc8c0c8a17a7f12ffd043bb68",
+                "reference": "bc978bd45a9a34efc8c0c8a17a7f12ffd043bb68",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "description": "Custom SMTP mailer for SilverStripe",
+            "support": {
+                "source": "https://github.com/MediaDevils/silverstripe-smtp/tree/3.1"
+            },
+            "time": "2013-12-16 01:11:49"
+        },
+        {
             "name": "silverstripe-themes/simple",
             "version": "dev-master",
             "source": {
@@ -224,16 +248,16 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "dev-master",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "0e267dbd58a946e6e73a483333211671520219fa"
+                "reference": "067003a6c313267cc61ebce1240f906d695c75b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/0e267dbd58a946e6e73a483333211671520219fa",
-                "reference": "0e267dbd58a946e6e73a483333211671520219fa",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/067003a6c313267cc61ebce1240f906d695c75b3",
+                "reference": "067003a6c313267cc61ebce1240f906d695c75b3",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +285,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2015-01-27 12:07:27"
+            "time": "2014-03-22 10:49:11"
         },
         {
             "name": "silverstripe/cms",
@@ -312,31 +336,26 @@
         },
         {
             "name": "silverstripe/comments",
-            "version": "dev-master",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-comments.git",
-                "reference": "2a20037e49090e2d069ef4d8bb6026db4a76344a"
+                "reference": "a061be87321b0d048bfdb692cd7550c33f5da872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/2a20037e49090e2d069ef4d8bb6026db4a76344a",
-                "reference": "2a20037e49090e2d069ef4d8bb6026db4a76344a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/a061be87321b0d048bfdb692cd7550c33f5da872",
+                "reference": "a061be87321b0d048bfdb692cd7550c33f5da872",
                 "shasum": ""
             },
             "require": {
-                "colymba/gridfield-bulk-editing-tools": "~2.1",
+                "colymba/gridfield-bulk-editing-tools": "2.0.2",
                 "silverstripe/framework": "~3.1"
             },
             "suggest": {
                 "ezyang/htmlpurifier": "4.*"
             },
             "type": "silverstripe-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
@@ -349,7 +368,7 @@
                 "comments",
                 "silverstripe"
             ],
-            "time": "2015-01-12 06:11:16"
+            "time": "2014-11-11 23:13:33"
         },
         {
             "name": "silverstripe/framework",
@@ -401,17 +420,130 @@
             "time": "2015-01-14 22:56:46"
         },
         {
-            "name": "silverstripe/widgets",
+            "name": "silverstripe/mathspamprotection",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-widgets.git",
-                "reference": "674ea5d5913e8d40a226955c8c5936977a438e1e"
+                "url": "https://github.com/silverstripe/silverstripe-mathspamprotection.git",
+                "reference": "801da8bef6aedf1f9dcb098ef32f237ca0b3ab2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/674ea5d5913e8d40a226955c8c5936977a438e1e",
-                "reference": "674ea5d5913e8d40a226955c8c5936977a438e1e",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-mathspamprotection/zipball/801da8bef6aedf1f9dcb098ef32f237ca0b3ab2c",
+                "reference": "801da8bef6aedf1f9dcb098ef32f237ca0b3ab2c",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/spamprotection": "dev-master"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "This module provides a simple math protection mechanism for prevent spam from your forms.Includes an EditableMathSpamField to integrate with the UserForms module.",
+            "keywords": [
+                "mathspamprotection",
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2015-01-04 00:12:48"
+        },
+        {
+            "name": "silverstripe/spamprotection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-spamprotection.git",
+                "reference": "c1a8a83011e10e238afbd6f4804e9ba1df5d56f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/c1a8a83011e10e238afbd6f4804e9ba1df5d56f9",
+                "reference": "c1a8a83011e10e238afbd6f4804e9ba1df5d56f9",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Saophalkun Ponlu",
+                    "email": "phalkunz@silverstripe.com"
+                },
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "Spam protection module for SilverStripe.",
+            "keywords": [
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2014-12-05 02:18:33"
+        },
+        {
+            "name": "silverstripe/userforms",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
+                "reference": "8303f27c39ac4fb5b7f9d11b19068d436d887244"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/8303f27c39ac4fb5b7f9d11b19068d436d887244",
+                "reference": "8303f27c39ac4fb5b7f9d11b19068d436d887244",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": ">=3.1.0",
+                "silverstripe/framework": ">=3.1.0"
+            },
+            "suggest": {
+                "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "UserForms enables CMS users to create dynamic forms via a drag and drop interface and without getting involved in any PHP code",
+            "keywords": [
+                "silverstripe",
+                "userforms"
+            ],
+            "time": "2014-10-28 02:25:58"
+        },
+        {
+            "name": "silverstripe/widgets",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-widgets.git",
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/8ee406675e40ab7c978939c5cdacd810494baabe",
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +564,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2014-12-05 02:17:50"
+            "time": "2014-08-06 04:03:50"
         },
         {
             "name": "simplepie/simplepie",
@@ -493,11 +625,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silverstripe/blog": 20,
-        "silverstripe/widgets": 20,
-        "silverstripe/comments": 20,
         "simplepie/simplepie": 20,
-        "ezyang/htmlpurifier": 20
+        "ezyang/htmlpurifier": 20,
+        "silverstripe/spamprotection": 20,
+        "silverstripe/mathspamprotection": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

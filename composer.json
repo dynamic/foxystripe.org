@@ -1,17 +1,27 @@
 {
 	"name": "silverstripe/installer",
 	"description": "The SilverStripe Framework Installer",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/MediaDevils/silverstripe-smtp.git"
+		}
+	],
 	"require": {
 		"php": ">=5.3.2",
 		"silverstripe/cms": "3.1.9",
 		"silverstripe/framework": "3.1.9",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/blog": "dev-master",
+		"silverstripe/blog": "0.7.0",
 		"silverstripe/widgets": "dev-master",
-		"silverstripe/comments": "dev-master",
+		"silverstripe/comments": "1.2.1",
 		"simplepie/simplepie": "dev-master",
 		"ezyang/htmlpurifier": "dev-master",
-		"silverstripe/widgets": "dev-master"
+		"silverstripe/widgets": "0.2.0",
+		"MediaDevils/silverstripe-smtp": "*",
+		"silverstripe/userforms": "2.0.6",
+		"silverstripe/spamprotection": "dev-master",
+		"silverstripe/mathspamprotection": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600

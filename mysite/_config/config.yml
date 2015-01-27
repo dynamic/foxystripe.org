@@ -9,6 +9,11 @@ After:
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'simple'
-Page:
+BlogHolder:
   extensions:
     - WidgetPageExtension
+BlogEntry:
+  extensios:
+    - WidgetPageExtension
+FormSpamProtectionExtension:
+  default_spam_protector: MathSpamProtector
