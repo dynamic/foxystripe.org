@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "baf926fcc30a05182e57a9fbb7e02956",
+    "hash": "26825e1fb3cec51f0034c3d69c7ead94",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "9a56f5aabf81be7a4d89148141d475df8846ec55"
+                "reference": "0e267dbd58a946e6e73a483333211671520219fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/9a56f5aabf81be7a4d89148141d475df8846ec55",
-                "reference": "9a56f5aabf81be7a4d89148141d475df8846ec55",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/0e267dbd58a946e6e73a483333211671520219fa",
+                "reference": "0e267dbd58a946e6e73a483333211671520219fa",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +261,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2014-12-05 02:18:04"
+            "time": "2015-01-27 12:07:27"
         },
         {
             "name": "silverstripe/cms",

@@ -10,7 +10,8 @@
 		"silverstripe/widgets": "dev-master",
 		"silverstripe/comments": "dev-master",
 		"simplepie/simplepie": "dev-master",
-		"ezyang/htmlpurifier": "dev-master"
+		"ezyang/htmlpurifier": "dev-master",
+		"silverstripe/widgets": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600
