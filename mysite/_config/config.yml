@@ -12,8 +12,6 @@ SSViewer:
 Page:
   extensions:
     - WidgetPageExtension
-BlogEntry:
-  extensios:
-    - WidgetPageExtension
+    - FlexSlider
 FormSpamProtectionExtension:
   default_spam_protector: MathSpamProtector
