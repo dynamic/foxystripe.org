@@ -19,10 +19,15 @@
 </div>
 <% if Tags %>
 	<div class="twelve columns alpha omega half-bottom">
-		<span class="tags"> Tags:&nbsp;&nbsp;
-			<% loop Tags %>
-				<a href="$Link" title="View all posts tagged '$Tag'" rel="tag">$Title</a><% if not Last %>&nbsp;&nbsp;|&nbsp;&nbsp;<% end_if %>
-			<% end_loop %>
+		<span class="tags">
+			<% if TagsCollection %>
+			<p class="tags">
+				 <% _t('BlogEntry_ss.TAGS', 'Tags:') %> 
+				<% loop TagsCollection %>
+					<a href="$Link" title="<% _t('BlogEntry_ss.VIEWALLPOSTTAGGED', 'View all posts tagged') %> '$Tag'" rel="tag">$Tag</a><% if not Last %>,<% end_if %>
+				<% end_loop %>
+			</p>
+		<% end_if %>
 		</span>
 	</div>
 <% end_if %>

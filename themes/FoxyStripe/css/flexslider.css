@@ -79,7 +79,9 @@ html[xmlns] .slides {
   max-height: 300px; }
 
 .flexslider .slides {
-  zoom: 1; }
+  zoom: 1;
+  list-style-type: none;
+  margin: 0; }
 
 .carousel li {
   margin-right: 5px; }
@@ -121,10 +123,7 @@ html[xmlns] .slides {
 
 /* Control Nav */
 .flex-control-nav {
-  float: right; }
-
-.flexslider.detail .flex-control-nav {
-  margin-top: -20px; }
+  text-align: center; }
 
 .flex-control-nav li {
   margin: 0 6px;
@@ -168,6 +167,12 @@ html[xmlns] .slides {
   .flex-control-thumbs .flex-active {
     opacity: 1;
     cursor: default; }
+
+.slide-text {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  .slide-text h5 {
+    color: #33930D; }
 
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {

@@ -53,6 +53,8 @@ class Page_Controller extends ContentController {
 		// Add the combined styles.
 		$styles = array(
 			$themeDir . '/css/base.css',
+			'flexslider/thirdparty/flexslider/flexslider.css',
+			$themeDir . '/css/flexslider.css',
 			$themeDir . '/css/layout.css',
 			$themeDir . '/css/typography.css',
 			$themeDir . '/css/form.css',
@@ -67,6 +69,7 @@ class Page_Controller extends ContentController {
 
 		// blocked
 		Requirements::block('framework/thirdparty/jquery/jquery.js');
+		Requirements::block('flexslider/thirdparty/flexslider/flexslider.css');
 
 		// Extra folder to keep the relative paths consistent when combining.
 		Requirements::set_combined_files_folder(ASSETS_DIR . '/_combined');
