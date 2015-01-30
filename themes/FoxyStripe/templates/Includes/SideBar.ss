@@ -20,4 +20,4 @@
 	</nav>
 <% end_if %>
 <a class="sideView" href="https://github.com/dynamic/foxystripe" target="_blank">View on <strong>GitHub</strong></a>
-<a class="sideView" href="packagist.com" target="_blank">View on <strong>Packagist</strong></a>
+<a class="sideView" href="https://packagist.org/packages/dynamic/foxystripe" target="_blank">View on <strong>Packagist</strong></a>
