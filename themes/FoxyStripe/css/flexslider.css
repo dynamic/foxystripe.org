@@ -123,7 +123,8 @@ html[xmlns] .slides {
 
 /* Control Nav */
 .flex-control-nav {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 .flex-control-nav li {
   margin: 0 6px;

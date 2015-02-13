@@ -363,10 +363,28 @@ h3.subtitle {
 p.sharethis {
   margin: 15px 0 30px; }
 
-.WidgetHolder h3 {
-  font-size: 21px;
-  line-height: 21px;
-  margin-bottom: 10px; }
+.WidgetHolder {
+  margin-bottom: 20px; }
+  .WidgetHolder h3 {
+    font-size: 21px;
+    line-height: 21px;
+    margin-bottom: 10px; }
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  background: #f7f7f7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: Courier, monospace;
+  font-size: 85%;
+  line-height: 1.45; }
+
+.sidebar nav.secondary {
+  margin-bottom: 40px; }
+.sidebar h4 {
+  line-height: 1; }
 
 a.ShareIcon {
   width: 17px;

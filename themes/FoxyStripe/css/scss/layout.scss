@@ -180,8 +180,14 @@ p.sharethis {
 	margin: 15px 0 30px;
 }
 
-.WidgetHolder {
+.WidgetHolder { margin-bottom: 20px;
 	h3 {font-size: 21px; line-height: 21px; margin-bottom: 10px;}
+}
+
+pre {padding: 16px; overflow: auto; background: #f7f7f7; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-family: Courier, monospace; font-size: 85%; line-height: 1.45; }
+.sidebar {
+	nav.secondary {margin-bottom: 40px;}
+	h4 {line-height: 1;}
 }
 
 

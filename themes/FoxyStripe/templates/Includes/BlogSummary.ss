@@ -31,4 +31,4 @@
 		</span>
 	</div>
 <% end_if %>
-<hr>
+<% if Last %><% else %><hr><% end_if %>

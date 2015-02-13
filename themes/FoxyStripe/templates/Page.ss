@@ -49,15 +49,7 @@
 				<nav class="primary" id="access">
 					<ul class="remove-bottom">
 						<% loop Menu(1) %>	  
-							<li class="$LinkingMode <% if Last %>last-parent<% end_if %>"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a>
-								<% if Children %>
-									<ul class="child">
-										<% loop Children %>
-										<li class="<% if Last %>last-child<% end_if %>"><a href="$Link" class="$LinkingMode">$MenuTitle.XML</a></li>
-										<% end_loop %>
-									</ul>
-								<% end_if %>
-							</li>
+							<li class="$LinkingMode <% if Last %>last-parent<% end_if %>"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
 						<% end_loop %>
 					</ul>
 				</nav>
@@ -95,15 +87,15 @@
 				</nav>
 			</div>
 			<div class="four columns omega text-right">
-				<% if SiteConfig.CompanyName %>&copy; $Now.Year $SiteConfig.CompanyName <br><br>  $SiteConfig.FullAddressHTML<br>$SiteConfig.PhoneNumber<% end_if %>
-				<ul class="remove-bottom social">
-					<%--<li><a href="facebook.com" title="$SiteConfig.CompanyName Facebook page" target="_blank" class="fb"><span>Facebook</span></a></li>
+				<a href="http://www.dynamicagency.com" target="_blank">&copy; $Now.Year Dynamic, Inc</a>
+				<%--<ul class="remove-bottom social">
+					<li><a href="facebook.com" title="$SiteConfig.CompanyName Facebook page" target="_blank" class="fb"><span>Facebook</span></a></li>
 					<li><a href="twitter.com" title="$SiteConfig.CompanyName Twitter page" target="_blank" class="tw"><span>Twitter</span></a></li>
 					<li><a href="google.com" title="$SiteConfig.CompanyName Google+ page" target="_blank" class="go"><span>Google +</span></a></li>
 					<li><a href="linkedin.com" title="$SiteConfig.CompanyName LinkedIn page" target="_blank" class="li"><span>LinkedIn</span></a></li>
 					<li><a href="http://dynamic.github.io/foxystripe/" title="$FoxyStripe Github page" target="_blank" class="gh"><span>github</span></a></li>
-					<li><a href="" title="$FoxyStripe packagist page" target="_blank" class="pa"><span>packagist</span></a></li>--%>
-				</ul>
+					<li><a href="" title="$FoxyStripe packagist page" target="_blank" class="pa"><span>packagist</span></a></li>
+				</ul>--%>
 			</div>
 		</div>
 	</div>
