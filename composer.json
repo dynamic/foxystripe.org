@@ -22,7 +22,9 @@
 		"silverstripe/userforms": "2.0.6",
 		"silverstripe/spamprotection": "dev-master",
 		"silverstripe/mathspamprotection": "dev-master",
-		"undefinedoffset/silverstripe-markdown": "*"
+		"undefinedoffset/silverstripe-markdown": "*",
+		"unclecheese/betterbuttons": "*",
+		"undefinedoffset/sortablegridfield": "*"
 	},
 	"config": {
 		"process-timeout": 600
