@@ -13,6 +13,9 @@
 				</div>
 			</section>
 		<% end_if %>
+		<% if MarkdownContent %>
+			<div class="content typography">$MarkdownContent</div>
+		<% end_if %>
 	</article>
 
 	$Form

@@ -21,7 +21,8 @@
 		"MediaDevils/silverstripe-smtp": "*",
 		"silverstripe/userforms": "2.0.6",
 		"silverstripe/spamprotection": "dev-master",
-		"silverstripe/mathspamprotection": "dev-master"
+		"silverstripe/mathspamprotection": "dev-master",
+		"undefinedoffset/silverstripe-markdown": "*"
 	},
 	"config": {
 		"process-timeout": 600
