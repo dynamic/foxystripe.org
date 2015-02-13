@@ -14,7 +14,7 @@
 			</section>
 		<% end_if %>
 		<% if MarkdownContent %>
-			<div class="content typography">$MarkdownContent</div>
+			<div class="content typography markdown-body">$MarkdownContent</div>
 		<% end_if %>
 	</article>
 
