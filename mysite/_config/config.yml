@@ -13,7 +13,6 @@ Page:
   extensions:
     - WidgetPageExtension
     - FlexSlider
-    - PageExtension
 FormSpamProtectionExtension:
   default_spam_protector: MathSpamProtector
 BlogEntry:

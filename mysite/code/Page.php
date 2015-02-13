@@ -2,10 +2,22 @@
 class Page extends SiteTree {
 
 	private static $db = array(
+		'MarkdownContent'=>'Markdown'
 	);
 
 	private static $has_one = array(
 	);
+	
+	public function getCMSFields() {
+		$fields = parent::getCMSFields();
+		
+		$editor = new MarkdownEditor('MarkdownContent', 'Page Content (Markdown)');
+		$editor->setRows(15); //optional, set number of rows in CMS
+		$editor->setWrapMode(true); //optional, turn on word wrapping
+		$fields->addFieldToTab("Root.Main", $editor);
+		
+		return $fields;
+	}
 
 }
 class Page_Controller extends ContentController {
