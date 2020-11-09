@@ -1,6 +1,6 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
+	"name": "dynamic/foxystripe-org-installer",
+	"description": "The FoxyStripe.org Website Installer",
 	"repositories": [
 		{
 			"type": "vcs",
