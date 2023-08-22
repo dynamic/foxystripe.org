@@ -9,7 +9,7 @@
 	],
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.1.9",
+		"silverstripe/cms": "3.1.21",
 		"silverstripe/framework": "3.1.9",
 		"silverstripe-themes/simple": "*",
 		"silverstripe/blog": "0.7.0",
